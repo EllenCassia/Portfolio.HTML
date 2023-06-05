@@ -6,6 +6,9 @@
     margin: 0px;
     padding: 0px;
 }
+html, body {
+    scroll-behavior: smooth;
+}
 header{
     display: flex;
     align-items: center;
@@ -15,6 +18,7 @@ header{
     color: #FFD4D4;
     background-color: black;
     height: 100px;
+    scroll-behavior: smooth;
 }
 ul{
     display: flex;
@@ -39,7 +43,7 @@ div{
 #apresentacao{
     gap: 59px;
 }
-#sobre{
+#sobre, #curriculo, #projetos, #contato{
     font-size: 34px;
     gap: 20px;
     background-color: #ffd4d48c;

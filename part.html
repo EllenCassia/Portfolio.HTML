@@ -7,34 +7,42 @@
     <link rel="shortcut icon" href="Google-Noto-Emoji-People-Profession-10213-woman-student-light-skin-tone.512.png" type="image/x-icon">
     <title>Hey! I am Ellen Cassia. What's up?</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
 </head>
 <body>
     <header>
-        <h1 class = "titulo">ELLEN CASSIA</h1>
+        <h1 class="titulo">ELLEN CASSIA</h1>
         <ul>
-            <li>SOBRE</li>
-            <li>CURRÍCULO</li>
-            <li>PROJETOS</li>
-            <li>CONTATO</li>
+            <li class="scroll-link" data-target="#sobre">SOBRE</li>
+            <li class="scroll-link" data-target="#curriculo">CURRÍCULO</li>
+            <li class="scroll-link" data-target="#projetos">PROJETOS</li>
+            <li class="scroll-link" data-target="#contato">CONTATO</li>
         </ul>
     </header>
     <main>
-         <div id="apresentacao">
+        <div id="apresentacao">
             <picture>
-            <source media="(max-width: 750px)" srcset="img/fotoPerfil200.png" type="image/png">
-            <img class="fotoPerfil" src="img/fotoPerfil500.png" alt="fotoPerfil">
+                <source media="(max-width: 750px)" srcset="img/fotoPerfil200.png" type="image/png">
+                <img class="fotoPerfil" src="img/fotoPerfil500.png" alt="fotoPerfil">
             </picture>
-            <p>Olá! eu sou a <span class = "nome">Ellen Cassia</span>                                                                        
-             & sou estudante de programação</p>
-             
-        </div>   
-        <div id = "sobre">
-            <h2>SOBRE MIM</h2>
-            <h1>Quem sou eu?</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae maxime debitis dolorum quaerat in dolor deleniti unde, consectetur voluptas, veritatis 
-                ut repellat rerum? Hic quo, eos temporibus amet officiis ducimus.gf 
-            </p>
+            <p>Olá! Eu sou a <span class="nome">Ellen Cassia</span> e sou estudante de programação.</p>
         </div>
+        <section id="sobre">
+            <h2>QUEM SOU EU?</h2>
+            <p>Conteúdo da seção Sobre.</p>
+        </section>
+        <section id="curriculo">
+            <h2>CURRÍCULO</h2>
+            <p>Conteúdo da seção CURRÍCULO.</p>
+        </section>
+        <section id="projetos">
+            <h2>PROJETOS</h2>
+            <p>Conteúdo da seção PROJETOS.</p>
+        </section>
+        <section id="contato">
+            <h2>CONTATO</h2>
+            <p>Conteúdo da seção CONTATO.</p>
+        </section>
     </main>
     <footer>
     </footer>
