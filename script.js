@@ -7,7 +7,7 @@ scrollLinks.forEach(link => {
         e.preventDefault(); // Impede o comportamento padrão do link
 
         // Obtém o destino da rolagem a partir do atributo 'href' do link
-        const targetId = link.getAttribute('href');
+        const targetId = link.getAttribute('data-target');
 
         // Obtém o elemento de destino da rolagem
         const targetElement = document.querySelector(targetId);
