@@ -8,6 +8,7 @@
 }
 html, body {
     scroll-behavior: smooth;
+    background: linear-gradient(#f3f3f3, #e05443);
 }
 header{
     display: flex;
